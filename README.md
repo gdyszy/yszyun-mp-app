@@ -46,6 +46,7 @@
 
 # 快速体验
 目前只发布了安卓版本，ios 版本暂未发布
+
 ![image.png](https://api.apifox.cn/api/v1/projects/1757929/resources/355413/image-preview)
 
 进入注册页面，注册账户，然后下载app 进行体验
@@ -60,6 +61,7 @@
 *  创建小程序------ 关联应用
 
 * 将需要发布为小程序的uni-app 应用，使用HBuilderX 打包导出wgt
+
 ![image.png](https://api.apifox.cn/api/v1/projects/1757929/resources/355400/image-preview)
 
 * 使用HBuilderx将本插件真机运行到手机
