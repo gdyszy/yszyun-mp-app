@@ -141,13 +141,14 @@
       verCode() {
         this.codeShow = true
         let s = 60
-        setInterval(() => {
+	   let timerc = setInterval(() => {
           if (s > 0) {
             s--
             this.codeText = s
           } else {
             this.codeText = '发送验证码'
             this.codeShow = false
+	        clearInterval(timerc)
           }
         }, 1000)
       }
