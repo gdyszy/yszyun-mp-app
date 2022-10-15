@@ -1,0 +1,124 @@
+{
+  "pages": [
+	  {
+	    "path": "pages/login/login"
+	  },{
+	    "path": "pages/login/invitejoin",
+	    "style": {
+	      "navigationBarTitleText": "邀请你加入",
+	      "enablePullDownRefresh": false
+	    }
+	  }, {
+    "path": "pages/index/index",
+	"style": {
+		"enablePullDownRefresh": true,
+		"navigationStyle": "custom"
+	}
+  }, {
+    "path": "pages/consult/consult",
+	"style": {
+		"enablePullDownRefresh": true,
+		"navigationStyle": "custom"
+	}
+  }, {
+    "path": "pages/my/my"
+  }, {
+    "path": "pages/login/loginNew"
+  }, {
+    "path": "pages/login/register"
+  }, {
+    "path": "pages/login/retrievePwd"
+  }, {
+    "path": "pages/login/resetPwd"
+  }, {
+    "path": "pages/login/agreement"
+  }, {
+    "path": "pages/index/search"
+  }, {
+    "path": "pages/consult/consultDetail"
+  }, {
+    "path": "pages/my/updatePwd"
+  }, {
+    "path": "pages/index/applerList"
+  }, {
+    "path": "pages/consult/consultSearch"
+  }, {
+    "path": "pages/index/editApplet/editApplet"
+  }, {
+    "path": "pages/my/Invitationcode/Invitationcode"
+  }, {
+    "path": "pages/login/invitejoin",
+    "style": {
+      "navigationBarTitleText": "邀请你加入",
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/index/admincompany/admincompany",
+    "style": {
+      "navigationBarTitleText": "管理企业",
+      "enablePullDownRefresh": false
+    }
+    },
+		{
+			"path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+			"style": {
+				"disableScroll": true,
+				"app-plus": {
+					"backgroundColorTop": "transparent",
+					"background": "transparent",
+					"titleNView": false,
+					"scrollIndicator": false,
+					"popGesture": "none",
+					"animationType": "fade-in",
+					"animationDuration": 200
+
+				}
+			}
+		}    ,{
+            "path" : "pages/my/deactivate/deactivate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/set/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "tabBar": {
+    "color": "#9d9fa3",
+    "selectedColor": "#1f6df3",
+    "borderStyle": "#e2e2e2",
+    "backgroundColor": "#FFFFFF",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/01_home_nor.png",
+      "selectedIconPath": "static/01_home_sel.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/consult/consult",
+      "iconPath": "static/02_news_nor.png",
+      "selectedIconPath": "static/02_news_sel.png",
+      "text": "资讯"
+    }, {
+      "pagePath": "pages/my/my",
+      "iconPath": "static/03_Me_nor.png",
+      "selectedIconPath": "static/03_Me_sel.png",
+      "text": "我的"
+    }]
+  },
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
+}
