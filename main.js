@@ -7,7 +7,7 @@ Vue.config.productionTip = false
 
 App.mpType = 'app'
 
-const appSystemInfo = uni.getStorageSync("appSystemInfo")
+let appSystemInfo = uni.getStorageSync("appSystemInfo")
 //api 地址
 Vue.prototype.$cloudFunctionUrl = baseConfig.apiUrl+'/'
 //注册邀请页面地址
