@@ -22,7 +22,7 @@
 				<view class="item_content">
 					<view class="item_title">{{item.title}}</view>
 					<view class="item_text" v-if="!item.contentImg" v-html="item.content"></view>
-					<view class="item_time">{{item.create_date}}</view>
+					<view class="item_time">{{new Date(item.create_date).Format('yyyy-MM-dd hh:mm:ss')}}</view>
 				</view>
 			</view>
 		</view>
@@ -60,7 +60,6 @@
 				})
 				this.appletList = res.data.applet
 				this.information = res.data.information
-				console.log(this.information)
 				this.$commHelper.getContentImage(this.information)
 				// .then((res) => {
 				// 	// this.appletList = res.data.applet
