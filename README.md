@@ -95,6 +95,7 @@
 *  创建小程序------ 关联应用
 
 * 将需要发布为小程序的uni-app 应用，使用HBuilderX 打包导出wgt
+
 ![image.png](https://api.apifox.cn/api/v1/projects/1757929/resources/355400/image-preview)
 
 * 使用HBuilderx将本插件真机运行到手机
