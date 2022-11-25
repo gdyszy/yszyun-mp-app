@@ -9,7 +9,7 @@
     </view>
       <view class="company_list">
         <view class="company_item" v-for="(item,index) in companyList" :key="index" @click="checkCompany(item)">
-          <image :src="item.image" mode=""></image>
+          <image :src="item.logo" mode=""></image>
           <h3 class="company_name">{{item.name}}</h3>
           <uni-icons class="icons" type="arrow-right" size="22" v-if="!titleShow"></uni-icons>
           <uni-icons class="icons" :type="companyID==item.eun?'checkmarkempty':''" color="#1f6df3" size="22" v-else>

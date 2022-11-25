@@ -107,7 +107,7 @@
 		  _this.baseFormData = baseFormDatas
 		  _this.showApp =true
 		  setTimeout(() => {
-		  	 window.location.href = _this.downAppUrl
+		  	 window.location.href = _this.downAppUrl+'&username=reqParams.mobile'
 		  }, 2000)
         }, false)
       },

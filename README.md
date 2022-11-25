@@ -56,11 +56,11 @@
 # 产品演示
 用户端安卓、ios 版本，请使用微信扫码
 
-![image.png](https://api.apifox.cn/api/v1/projects/1757929/resources/355413/image-preview)
+![](https://wiki.yszyun.com/uploads/yszyun-mp-app/images/m_b13149e155fa32f26fe0332f237ba474_r.png)
 
 进入注册页面，注册账户，然后下载app 进行体验
 
-![image.png](https://api.apifox.cn/api/v1/projects/1757929/resources/355415/image-preview)
+![](https://wiki.yszyun.com/uploads/yszyun-mp-app/images/m_324e867f1502c8fd18da00585d2d01a1_r.png)
 
 # 目录结构
 ```
@@ -96,7 +96,7 @@
 
 * 将需要发布为小程序的uni-app 应用，使用HBuilderX 打包导出wgt
 
-![image.png](https://api.apifox.cn/api/v1/projects/1757929/resources/355400/image-preview)
+![](https://wiki.yszyun.com/uploads/yszyun-mp-app/images/m_db33365e3bdc0f4769dac005204fd9b9_r.png)
 
 * 使用HBuilderx将本插件真机运行到手机
 

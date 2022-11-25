@@ -1,7 +1,7 @@
 const NODE_ENV = 'prod';
 //apiUrl api 地址
 const apiUrl = 'https://b312a12c-6467-405d-8da3-50d34d78ec89.bspapp.com'
-const  webUrl  = 'https://unimp.yszyun.com'
+const  webUrl  = 'https://unimp.yszyun.com/app'
 const BASE_URL = { //请求URL
 	prod: apiUrl+'/cliApplets'
 }
